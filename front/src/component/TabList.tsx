@@ -4,23 +4,15 @@ const TabList = () => {
     return (
         <TabContainer>
             <Tab active={true}>
-                <TabTitle>대따대따 긴글!!?!!!!!인뎅!어떡하지!?</TabTitle>
+                <TabTitle>환생한 고대왕국</TabTitle>
                 <TabCloseButton>X</TabCloseButton>
             </Tab>
             <Tab active={false}>
-                <TabTitle>대따대따 긴글!!?!!!!!인뎅!어떡하지!?</TabTitle>
+                <TabTitle>눈을 떠보니 내가 백만장자?</TabTitle>
                 <TabCloseButton>X</TabCloseButton>
             </Tab>
             <Tab active={false}>
-                <TabTitle>대따대따 긴글!!?!!!!!인뎅!어떡하지!?</TabTitle>
-                <TabCloseButton>X</TabCloseButton>
-            </Tab>
-            <Tab active={false}>
-                <TabTitle>대따대따 긴글!!?!!!!!인뎅!어떡하지!?</TabTitle>
-                <TabCloseButton>X</TabCloseButton>
-            </Tab>
-            <Tab active={false}>
-                <TabTitle>대따대따 긴글!!?!!!!!인뎅!어떡하지!?</TabTitle>
+                <TabTitle>음 제목 뭘로하지?</TabTitle>
                 <TabCloseButton>X</TabCloseButton>
             </Tab>
         </TabContainer>

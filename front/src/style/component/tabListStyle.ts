@@ -17,12 +17,14 @@ export const TabContainer = styled.div`
         display: none;
     }
 `;
-
+// TODO: 좀 더 적합한 사이즈를 고민해봐야겠음, 심각하면 탭 위치 옮기는거 까지는 고민해봐야할듯
 export const Tab = styled.div<{ active?: boolean }>`
     display: flex;
     align-items: center;
 
-    min-width: 280px;
+    /* width: fit-content; */
+    /* min-width: 280px; */
+    max-width: 280px;
     height: 100%;
 
     margin-right: 10px;
