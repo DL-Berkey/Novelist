@@ -50,3 +50,5 @@ $code_base/front yarn build
 $code_base/back yarn dev
 $code_base/back yarn build
 ```
+
+https://github.com/DL-Berkey/Novelist/blob/main/front/dist/index.html
